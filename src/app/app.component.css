@@ -1,0 +1,79 @@
+#Sitename:hover{
+  color: #6b0b0b;
+  
+}
+html{
+  background-image: url(../../abstract-geometric-background-shapes-texture.jpg);
+}
+
+body {
+   /* Sayfa arka planı siyah */
+  color: white; /* Yazılar beyaz */
+  margin: 1;  /* Sayfanın kenarlarında boşluk bırakmamak için */
+
+   /* Tüm içerikleri dikeyde hizalamak için */
+  justify-content: center;
+  
+
+}
+
+#header{
+background-color: #6b0b0b;
+}
+
+.image-frame {
+  width: 500px; /* Çerçeve genişliği */
+  height: 500px; /* Çerçeve yüksekliği */
+  border: 2px solid white; /* Çerçeve beyaz */
+  background-color: black; /* Çerçeve arka planı siyah */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Resmin çerçeve dışına taşmasını engeller */
+  object-fit: contain;
+}
+
+     
+
+input{
+  align-items: center;
+  
+}
+
+.container1{
+  display: flex;
+}
+
+*{
+transition: 1000ms all;
+font-family:'Courier New', Courier, monospace;
+
+}
+
+#inputs{
+align-items: center;  
+display: inline block;
+display: flex;
+}
+
+#yazı{
+text-shadow:0px 0px 10px rgb(255, 255, 255);
+}
+
+
+#footer{
+margin-top: 30px;
+padding-top: 10px;
+background-color: rgb(143, 39, 39);
+color: black;
+padding-bottom: 10px;
+width: 100%;
+margin-bottom: 0px;
+}
+
+
+.container{
+  width: 1100px;
+  margin: auto;
+}
+
